@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hushstack — 데이터 삭제 요청 / Request Data Deletion</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 44rem; margin: 0 auto; padding: 2rem 1.25rem 5rem;
+    font: 16px/1.75 -apple-system, "Segoe UI", "Malgun Gothic", system-ui, sans-serif;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #8884; }
+  .sub { opacity: .65; margin-top: 0; font-size: .9rem; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { border: 1px solid #8884; padding: .5rem .7rem; text-align: left; vertical-align: top; }
+  th { background: #8881; }
+  code { background: #8882; padding: .1rem .35rem; border-radius: 3px; font-size: .9em; }
+  .en { margin-top: 4rem; padding-top: 2rem; border-top: 3px double #8886; }
+  footer { margin-top: 4rem; font-size: .85rem; opacity: .7; }
+  .box {
+    border: 2px solid #8886; border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;
+    background: #8881;
+  }
+  .box p:first-child { margin-top: 0; }
+  .box p:last-child  { margin-bottom: 0; }
+  ol { padding-left: 1.3rem; }
+  ol li { margin: .6rem 0; }
+</style>
+</head>
+<body>
+
+<h1>Hushstack — 데이터 삭제 요청</h1>
+<p class="sub">앱 이름: <strong>Hushstack</strong> · 최종 수정일: 2026-10-07</p>
+
+<p>
+  <strong>Hushstack</strong>은 회원가입이 없는 게임입니다. 계정이 없으므로 <strong>삭제할 계정도 없습니다.</strong>
+  다만 이용자가 <strong>순위표에 직접 이름을 남긴 경우</strong>, 그 이름과 점수가 순위 집계를 위해
+  서버에 저장됩니다. 이 기록은 아래 방법으로 삭제를 요청하실 수 있습니다.
+</p>
+
+<h2>삭제를 요청하는 방법</h2>
+
+<div class="box">
+  <p><strong>이메일 한 통이면 됩니다.</strong></p>
+  <ol>
+    <li>
+      <strong><code>nobrain1988@gmail.com</code></strong> 으로 메일을 보냅니다.
+    </li>
+    <li>
+      제목에 <strong>“Hushstack 기록 삭제 요청”</strong> 이라고 적습니다.
+    </li>
+    <li>
+      본문에 <strong>순위표에 남기신 이름(별명)</strong>을 적습니다.
+      <br><span style="opacity:.75">예: “제가 남긴 이름은 <code>한칸더</code> 입니다. 삭제해 주세요.”</span>
+    </li>
+    <li>
+      <strong>7일 이내</strong>에 삭제하고 회신해 드립니다.
+    </li>
+  </ol>
+  <p style="opacity:.75">
+    별명은 10자 이내이며 실명이 아닙니다. 같은 별명이 여러 개인 경우를 대비해
+    대략적인 점수나 기록한 시기를 함께 적어주시면 더 정확합니다.
+  </p>
+</div>
+
+<h2>삭제되는 것과 보관되는 것</h2>
+
+<table>
+  <tr>
+    <th>데이터</th>
+    <th>처리</th>
+    <th>보관 기간</th>
+  </tr>
+  <tr>
+    <td><strong>순위표 이름(별명)</strong></td>
+    <td>요청 시 <strong>완전 삭제</strong></td>
+    <td>요청 후 <strong>7일 이내</strong> 삭제. 이후 보관하지 않으며 별도 백업본도 없습니다.</td>
+  </tr>
+  <tr>
+    <td><strong>순위표 점수</strong></td>
+    <td>이름과 함께 <strong>완전 삭제</strong></td>
+    <td>위와 같음</td>
+  </tr>
+  <tr>
+    <td>기기 안의 기록<br>(최고 기록, 소리 설정 등)</td>
+    <td>서버에 전송되지 않습니다</td>
+    <td><strong>앱을 삭제하면 즉시 사라집니다.</strong> 별도 요청이 필요 없습니다.</td>
+  </tr>
+  <tr>
+    <td>광고 ID</td>
+    <td>이 앱이 저장하거나 보관하지 않습니다</td>
+    <td>Google AdMob 정책에 따릅니다.
+        기기에서 <strong>설정 → Google → 광고 → 광고 ID 삭제</strong> 로 초기화할 수 있습니다.</td>
+  </tr>
+  <tr>
+    <td>실명 · 이메일 · 전화번호 · 위치 · 연락처</td>
+    <td colspan="2"><strong>애초에 수집하지 않습니다.</strong> 삭제할 것이 없습니다.</td>
+  </tr>
+</table>
+
+<p>
+  순위표 기록을 삭제해도 앱은 계속 사용할 수 있으며, 다시 이름을 남기면 새로 등록됩니다.
+</p>
+
+<footer>
+  문의: <code>nobrain1988@gmail.com</code><br>
+  <a href="./privacy.html">개인정보처리방침 / Privacy Policy</a>
+</footer>
+
+
+<div class="en">
+
+<h1>Hushstack — Request Data Deletion</h1>
+<p class="sub">App name: <strong>Hushstack</strong> · Last updated: 2026-10-07</p>
+
+<p>
+  <strong>Hushstack</strong> has no sign-up, so <strong>there is no account to delete.</strong>
+  If you chose to <strong>put your name on the leaderboard</strong>, that display name and
+  score are stored on a server so the ranking can be compiled. You can ask us to delete
+  that record using the steps below.
+</p>
+
+<h2>How to request deletion</h2>
+
+<div class="box">
+  <p><strong>One email is all it takes.</strong></p>
+  <ol>
+    <li>
+      Email <strong><code>nobrain1988@gmail.com</code></strong>.
+    </li>
+    <li>
+      Use the subject line <strong>“Hushstack data deletion request”</strong>.
+    </li>
+    <li>
+      In the body, give the <strong>display name you entered on the leaderboard</strong>.
+      <br><span style="opacity:.75">For example: “The name I entered is <code>OneMoreRow</code>. Please delete it.”</span>
+    </li>
+    <li>
+      We delete it <strong>within 7 days</strong> and reply to confirm.
+    </li>
+  </ol>
+  <p style="opacity:.75">
+    Display names are up to 10 characters and are not real names. If several entries share
+    a name, adding an approximate score or when you played helps us find the right one.
+  </p>
+</div>
+
+<h2>What is deleted and what is kept</h2>
+
+<table>
+  <tr>
+    <th>Data</th>
+    <th>What happens</th>
+    <th>Retention</th>
+  </tr>
+  <tr>
+    <td><strong>Leaderboard display name</strong></td>
+    <td><strong>Permanently deleted</strong> on request</td>
+    <td>Deleted <strong>within 7 days</strong> of the request. Not retained afterwards, and no separate backup copy is kept.</td>
+  </tr>
+  <tr>
+    <td><strong>Leaderboard score</strong></td>
+    <td><strong>Permanently deleted</strong> with the name</td>
+    <td>Same as above</td>
+  </tr>
+  <tr>
+    <td>On-device data<br>(best score, sound setting)</td>
+    <td>Never sent to a server</td>
+    <td><strong>Gone the moment you uninstall the app.</strong> No request needed.</td>
+  </tr>
+  <tr>
+    <td>Advertising ID</td>
+    <td>This app neither stores nor retains it</td>
+    <td>Governed by Google AdMob. You can reset it on your device under
+        <strong>Settings → Google → Ads → Delete advertising ID</strong>.</td>
+  </tr>
+  <tr>
+    <td>Real name, email, phone, location, contacts</td>
+    <td colspan="2"><strong>Never collected in the first place.</strong> There is nothing to delete.</td>
+  </tr>
+</table>
+
+<p>
+  Deleting your leaderboard record does not affect your ability to keep playing; entering a
+  name again creates a new entry.
+</p>
+
+<footer>
+  Contact: <code>nobrain1988@gmail.com</code><br>
+  <a href="./privacy.html">개인정보처리방침 / Privacy Policy</a>
+</footer>
+
+</div>
+
+</body>
+</html>
